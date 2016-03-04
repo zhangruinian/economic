@@ -1,0 +1,614 @@
+body {
+	font-family: Microsoft YaHei;
+}
+
+/*头部header样式*/
+#header {
+	width: 960px;
+	height: 68px;
+	margin: 0 auto;
+	background: url(../images/headerBg.png) repeat-x;
+}
+#header img {
+	margin-top: 5px;
+	margin-left: 13px;
+}
+.nav {
+	height: 58px;
+	float: right;
+	margin-right: 35px;
+	margin-top: 5px;
+	padding-left: 40px;
+	padding-right: 30px;
+	background: #fff;
+	border-radius: 30px;
+}
+.nav li {
+	display: inline-block;
+	width: 70px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 15px;
+	margin-right: 10px;
+	border-radius: 8px;
+}
+.nav li a {
+	color: #343434;
+}
+.nav li a:hover {
+	text-decoration: underline;
+}
+.active {
+	background: rgba(0, 52, 131, 0.9);
+}
+#header .nav .active a {
+	color: #fff;
+}
+
+/*头部标题headerTitle样式*/
+#headerTitle {
+	width: 960px;
+	margin: 0 auto;
+}
+#headerTitle img {
+	width: 960px;
+}
+
+/*中部内容content样式*/
+#content {
+	width: 944px;
+	padding: 0 8px;
+	margin: 0 auto;
+}
+
+/*content-top样式*/
+.content-top {
+	margin-top: 5px;
+}
+.lab {
+	width: 235px;
+	height: 223px;
+	background: url(../images/corner.png);
+	float: left;
+}
+.lab ul {
+	width: 150px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 45px 0;
+}
+.lab ul li {
+	line-height: 30px;
+	height: 30px;
+}
+.lab ul li a {
+	font-size: 18px;
+	color: #022162;
+	background: url(../images/triangle.png) no-repeat left center;
+	padding-left: 25px;
+}
+.lab ul li a:hover {
+	text-decoration: underline;
+}
+.picShow {
+	width: 700px;
+	height: 233px;
+	float: left;
+	margin-left: 7px;
+}
+.picShow #picBox {
+	height: 221px;
+	overflow: hidden;
+	border-bottom-left-radius: 45px;
+}
+.picShow img {
+	width: 697px;
+	height: 221px;
+	border: 1px solid #000;
+}
+.content-bottom-left {
+	width: 233px;
+	float: left;
+}
+.leftBox {
+	border: 2px solid #9aa1ae;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	margin-bottom: 10px;
+}
+.leftBox .leftBox-title {
+	height: 40px;
+	background-color: #9aa1ae;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.leftBox .leftBox-title h2 {
+	line-height: 40px;
+	font-size: 16px;
+	color: #3d3d3d;
+	margin-left: 30px;
+	padding-left: 20px;
+	background: url(../images/twoVertical.png) no-repeat left center;
+}
+.login {
+	height: 180px;
+}
+.login .login-title {
+	margin-bottom: 12px;
+}
+
+.login-content {
+	margin-top: 10px;
+	text-align: center;
+}
+.login-content input[type="text"], .login-content input[type="password"] {
+	width: 115px;
+}
+.login-content input[type="submit"] {
+	float: right;
+	width: 30px;
+	margin-top: 6px;
+	margin-right: 10px;
+}
+.login-content input[type="submit"]:hover {
+	text-decoration: underline;
+}
+.login label {
+	font-size: 14px;
+	color: #4c4c4c;
+}
+.subLab {
+	height: 250px;
+	overflow: hidden;
+}
+.subLab ul {
+	height: 210px;
+	max-height: 210px;
+	overflow: hidden;
+}
+.subLab ul li {
+	line-height: 35px;
+	height: 35px;
+}
+.subLab ul li:nth-child(even) {
+	background: #f1f1f6;
+}
+.subLab ul li a {
+	font-size: 14px;
+	color: #4c4c4c;
+	padding-left: 23px;
+}
+.manage ul li {
+	line-height: 37px;
+	height: 37px;
+}
+.manage  ul li a {
+	font-size: 14px;
+	color: #4c4c4c;
+	padding-left: 9px;
+	margin-left: 23px;
+	border-left: 3px solid #044480;
+}
+.manage ul li:nth-child(1) {
+	border-bottom: 1px solid #8b93a2;
+}
+.contactUs {
+	margin-bottom: 10px;
+}
+.contactUs ul li {
+	line-height: 37px;
+	height: 37px;
+	font-size: 14px;
+	color: #4c4c4c;
+	border-bottom: 1px dashed #8b93a2;
+}
+.contactUs ul li:nth-child(1), .contactUs ul li:nth-child(2) {
+	padding-left: 23px;
+}
+.contactUs ul li:nth-child(3) {
+	text-align: center;
+	border-bottom-style: none;
+}
+.content-bottom-center {
+	width: 443px;
+	float: left;
+	margin-left: 7px;
+}
+.content-bottom-center-top {
+	padding: 10px 20px 0 20px;
+	border: 1px solid #717172;
+}
+.centerBox-Title {
+	border-bottom: 1px solid #7f3d48;
+	margin-bottom: 15px;
+}
+.centerBox-Title h2 {
+	width: 100px;
+	float: left;
+	color: #7f3d48;
+	font-size: 15px;
+	line-height: 24px;
+	border-bottom: 5px solid #7f3d48;
+}
+.centerBox-Title .more {
+	font-size: 15px;
+	line-height: 24px;
+	color: #7f3d48;
+	padding-right: 4px;
+	float: right;
+}
+.imgNews ul li {
+	float: left;
+	text-align: center;
+}
+.imgNews ul li span {
+	display: block;
+	font-size: 12px;
+	color: #4c4c4c;
+	margin-top: 8px;
+}
+.centerNews {
+	margin-top: 15px;
+	padding-bottom: 21px;
+}
+#scroller_roll1 {
+	overflow: hidden;
+}
+#scroller_roll1 ul li {
+	width: 130px;
+	height: 120px;
+	float: left;
+	overflow: hidden;
+	display: inline;
+	margin-right: 3px;
+}
+.centerNews ul {
+	max-height: 351px;
+	overflow: hidden;
+}
+.centerNews ul li {
+	height: 27px;
+	line-height: 27px;
+	background: url(../images/newsList.png) no-repeat left center;
+	padding-left: 20px;
+}
+.centerNews ul li a {
+	font-size: 13px;
+	color: #4c4c4c;
+}
+.centerNews ul li a:hover {
+	color: #7F3D48;
+}
+.centerNews ul li span {
+	font-size: 13px;
+	color: #4c4c4c;
+	float: right;
+}
+.link {
+	width: 403px;
+	height: 120px;
+	margin-top: 10px;
+	border: 1px solid #4c4c4c;
+	padding: 0px 20px 0 20px;
+}
+.link .centerBox-Title {
+	border-bottom: 1px solid #1d4344;
+	margin-top: 10px;
+}
+.link .centerBox-Title h2 {
+	color: #1d4344;
+	border-bottom: 5px solid #1d4344;
+}
+.link .centerBox-Title .more {
+	color: #1d4344;
+}
+.link ul {
+	margin: 0 auto;
+	margin-top: 28px;
+	width: 392px;
+}
+.link ul li {
+	float: left;
+	font-size: 14px;
+	color: #3d3d3d;
+	cursor: pointer;
+	margin-right: 18px;
+	line-height: 25px;
+	height: 25px;
+	padding: 0 12px;
+	border-top: 1px solid #4F4F4D;
+	border-bottom: 1px solid #4F4F4D;
+	border-left: 1px solid #BABAB9;
+	border-right: 1px solid #BABAB9;
+	position: relative;
+}
+.link ul li:nth-child(3) {
+	margin-right: 0px;
+}
+.link  ul li ul {
+	margin: 0;	/*本来用了定位就好了，不要再用margin-top了导致失灵了又*/
+
+	/*margin-top: 3px;*/
+
+	/*要把继承了的ul margin-top: 28px;给覆盖掉，不然这个下拉菜单相距很大，无法实现功能*/
+
+	/*当是2px3px以下时候是可以的,大于之后就会失效*/
+	border: 0 none;
+	width: 135px;
+	display: none;
+	position: absolute;
+	top: 25px;
+	left: 0;
+}
+.link  ul li ul li {
+	float: none;
+	width: 90px;
+	margin-bottom: 2px;
+	background: #fff;
+}
+.link ul li ul li a {
+	color: #000;
+	font-size: 14px;
+}
+.link ul li ul li a:hover {
+	text-decoration: underline;
+}
+.link ul li:hover ul {
+	display: block;
+}
+
+/* .link ul li {
+float: left;
+font-size: 14px;
+color: #3d3d3d;
+cursor: pointer;
+margin-right: 18px;
+line-height: 25px;
+height: 25px;
+padding: 0 12px;
+border-top: 1px solid #4F4F4D;
+border-bottom: 1px solid #4F4F4D;
+border-left: 1px solid #BABAB9;
+border-right: 1px solid #BABAB9;
+position: relative;
+}
+.link ul li:nth-child(3) {
+margin-right: 0px;
+}
+.link ul li ul {
+position: absolute;
+top: 30px;
+left: 0px;
+width: 90px;
+margin: 0;
+display: none;
+}
+.link ul li ul li {
+float: none;
+width: 90px;
+
+margin-bottom: 1px;
+}
+.link ul li ul li a {
+color: #3d3d3d;
+font-size: 14px;
+}
+.link ul li:hover ul {
+display: block;
+} */
+.content-bottom-right {
+	width: 251px;
+	float: left;
+	margin-left: 10px;
+}
+
+.resourceBox {
+	border: 3px solid #c0c0c0;
+	margin-top: 15px;
+}.inform {
+	width: 241px;
+	height: 330px;
+	border: 5px solid #e7e6d5;
+	overflow: hidden;
+}
+.inform h2 {
+	font-size: 18px;
+	color: #834f29;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 12px;
+}
+.inform ul {
+	padding-left: 25px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	width: 200px;
+	max-height: 250px;
+	overflow: hidden;
+}
+.inform ul li {
+	line-height: 25px;
+	height: 25px;
+}
+.inform ul li a {
+	font-size: 13px;
+	color: #131313;
+}
+.inform ul li a:hover {
+	color: #834f29;
+}
+.resourceBox .resourceTitle {
+	height: 16px;
+	background: #c0c0c0;
+	padding: 12px 0;
+}
+.resourceBox .resourceTitle h2 {
+	font-size: 16px;
+	color: #4d4d4d;
+	height: 20px;
+	line-height: 20px;
+	margin: 0 10px;
+	padding-left: 20px;
+	border-left: 4px solid #fff;
+	border-right: 4px solid #fff;
+}
+.teachResource ul {
+	margin: 15px 20px 15px 20px;
+}
+.teachResource ul li {
+	line-height: 27px;
+	height: 27px;
+}
+.teachResource ul li a {
+	font-size: 14px;
+	color: #4d4d4d;
+}
+.dataResource ul {
+	margin: 16px 20px 16px 20px;
+}
+.dataResource ul li {
+	line-height: 28px;
+	height: 28px;
+	background: url(../images/round.png) no-repeat left center;
+	padding-left: 20px;
+}
+.dataResource ul li a {
+	font-size: 14px;
+	color: #4d4d4d;
+}
+#footer {
+	width: 960px;
+	border-top: 2px solid #343455;
+	margin: 0 auto;
+}
+#footer .copyright ul {
+	width: 276px;
+	margin: 20px auto;
+}
+#footer .copyright ul li {
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+#footer .copyright ul li, #footer .copyright ul li a {
+	font-size: 13px;
+	color: #4c4c4c;
+}
+
+/*二级页面样式*/
+#secondContent {
+	width: 960px;
+	margin: 2px auto;
+	background: url(../images/secondBg.png) no-repeat right bottom;
+}
+.sec-left {
+	width: 187px;
+	float: left;
+	position: relative;
+}
+.sec-left-content {
+	min-height: 535px;
+	border-right: 1px solid #003483;
+	padding-top: 32px;
+}
+.sec-left-content h2 {
+	width: 90px;
+	height: 55px;
+	line-height: 55px;
+	font-size: 18px;
+	color: #1a3865;
+	font-weight: normal;
+	background: url(../images/wheel.png) no-repeat left center;
+	margin-left: 20px;
+	padding-left: 67px;
+}
+.sec-left-content ul {
+	margin-top: 10px;
+}
+.sec-left-content ul li {
+	border-bottom: 1px solid #003483;
+}
+.sec-left-content ul li a {
+	font-size: 15px;
+	height: 45px;
+	line-height: 45px;
+	color: #1a3865;
+	display: block;
+	background: url(../images/blueList.png) no-repeat left center;
+	margin-left: 45px;
+	padding-left: 23px;
+}
+.sec-left-content ul li:nth-child(1) {
+	border-top: 1px solid #003483;
+}
+.sec-left-content ul li a:hover {
+	text-decoration: underline;
+}
+.sec-active {
+	background: #97abcb;
+}
+.backIndex {
+	margin-top: 70px;
+	width: 75px;
+	height: 67px;
+	background: url(../images/backIndex.png) no-repeat left center;
+	margin-left: 15px;
+	padding-left: 70px;
+	padding-top: 20px;
+}
+.backIndexContent {
+	display: block;
+	width: 75px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	color: #d66411;
+	font-size: 18px;
+	font-weight: normal;
+	border: 1px solid #B2B9C3;
+	border-radius: 5px;
+}
+.sec-right {
+	float: left;
+	padding-left: 10px;
+	padding-top: 12px;
+}
+.sec-right-place span, .sec-right-place a {
+	font-size: 12px;
+	color: #d66411;
+}
+.sec-right-title {
+	background: url(../images/message.png) no-repeat left center;
+	padding-left: 63px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.sec-right-title h2 a {
+	display: block;
+	width: 625px;
+	border-bottom: 1px solid #19488F;
+}
+.sec-right-title h2 a span {
+	display: block;
+	width: 100px;
+	font-size: 15px;
+	color: #041e46;
+	border-bottom: 3px solid #19488F;
+	height: 47px;
+	line-height: 47px;
+}
+.sec-right ul {
+	width: 600px;
+	margin-left: 75px;
+	margin-top: 20px;
+}
+.sec-right ul li {
+	height: 28px;
+	line-height: 28px;
+	background: url(../images/blueRound.png) no-repeat left center;
+	padding-left: 20px;
+}
+.sec-right ul li a {
+	font-size: 15px;
+	color: #041e46;
+}
